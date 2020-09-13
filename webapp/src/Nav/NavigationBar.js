@@ -7,9 +7,9 @@ export default class NavigationBar extends Component {
         return (
             <Navbar bg="dark" variant="dark">
                 <Nav className="mr-auto">
-                    <Link to={"/"} className="nav-link" >Home page</Link>
+                    <Link to={"/"} className="nav-link" >Home</Link>
                     <Link to={"list"} className="nav-link" >Дашборд</Link>
-                    <Link to={"add"} className="nav-link" >Профиль</Link>
+                    <Link to={"registration"} className="nav-link" >Login</Link>
                 </Nav>
             </Navbar>
         )
